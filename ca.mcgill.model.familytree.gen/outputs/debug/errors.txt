@@ -1,0 +1,11 @@
+Error occured (UnsupportedOperationException): Unsupported attribute type: EDate of org.eclipse.emf.ecore.impl.EPackageImpl@5a3a1bf9 (name: familytree) (nsURI: http://www.example.org/familytree, nsPrefix: familytree)::Member.dateOfBirth
+    hu.bme.mit.inf.dslreasoner.ecore2logic.EAttributeMapper_RelationsOverTypes.TypeOfRange(EAttributeMapper_RelationsOverTypes.java:237)
+    hu.bme.mit.inf.dslreasoner.ecore2logic.EAttributeMapper_RelationsOverTypes.transformEAttributes(EAttributeMapper_RelationsOverTypes.java:70)
+    hu.bme.mit.inf.dslreasoner.ecore2logic.Ecore2Logic.transformEAttributes(Ecore2Logic.java:156)
+    hu.bme.mit.inf.dslreasoner.ecore2logic.Ecore2Logic.transformMetamodel(Ecore2Logic.java:83)
+    hu.bme.mit.inf.dslreasoner.application.execution.GenerationTaskExecutor.executeGenerationTask(GenerationTaskExecutor.java:189)
+    hu.bme.mit.inf.dslreasoner.application.execution.ScriptExecutor._execute(ScriptExecutor.java:129)
+    hu.bme.mit.inf.dslreasoner.application.execution.ScriptExecutor.execute(ScriptExecutor.java:338)
+    hu.bme.mit.inf.dslreasoner.application.execution.ScriptExecutor.executeScript(ScriptExecutor.java:110)
+    hu.bme.mit.inf.dslreasoner.application.execution.StandaloneScriptExecutor.executeScript(StandaloneScriptExecutor.java:149)
+    ca.mcgill.model.familytree.run.FamilyTreeGen.main(FamilyTreeGen.java:7)

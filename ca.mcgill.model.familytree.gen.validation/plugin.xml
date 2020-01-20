@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin>
+  <extension id="validation.constraint.ca.mcgill.model.familytree.gen.memberIsHisOwnParent" point="org.eclipse.viatra.addon.validation.runtime.constraint">
+    <constraint class="ca.mcgill.model.familytree.gen.MemberIsHisOwnParentConstraint0" name="ca.mcgill.model.familytree.gen.memberIsHisOwnParent"/>
+  </extension>
+  <extension id="validation.constraint.ca.mcgill.model.familytree.gen.memberIsItsOwnParent" point="org.eclipse.viatra.addon.validation.runtime.constraint">
+    <constraint class="ca.mcgill.model.familytree.gen.MemberIsItsOwnParentConstraint0" name="ca.mcgill.model.familytree.gen.memberIsItsOwnParent"/>
+  </extension>
+  <extension id="validation.constraint.ca.mcgill.model.familytree.gen.memberIsOwnParent" point="org.eclipse.viatra.addon.validation.runtime.constraint">
+    <constraint class="ca.mcgill.model.familytree.gen.MemberIsOwnParentConstraint0" name="ca.mcgill.model.familytree.gen.memberIsOwnParent"/>
+  </extension>
+  <extension id="validation.constraint.ca.mcgill.model.familytree.gen.parentTooYoung" point="org.eclipse.viatra.addon.validation.runtime.constraint">
+    <constraint class="ca.mcgill.model.familytree.gen.ParentTooYoungConstraint0" name="ca.mcgill.model.familytree.gen.parentTooYoung"/>
+  </extension>
+</plugin>

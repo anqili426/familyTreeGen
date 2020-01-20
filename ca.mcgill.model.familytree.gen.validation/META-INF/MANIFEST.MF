@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ca.mcgill.model.familytree.gen.validation
+Bundle-SymbolicName: ca.mcgill.model.familytree.gen.validation;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Require-Bundle: ca.mcgill.model.familytree.gen,
+ org.eclipse.viatra.query.runtime,
+ org.eclipse.viatra.addon.validation.core
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ca.mcgill.model.familytree.gen
+Bundle-SymbolicName: ca.mcgill.model.familytree.gen;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Export-Package: ca.mcgill.model.familytree.gen
+Require-Bundle: org.eclipse.emf.ecore,
+ org.eclipse.viatra.query.runtime,
+ org.eclipse.viatra.query.runtime.rete,
+ org.eclipse.viatra.query.runtime.localsearch,
+ org.eclipse.xtext.xbase.lib,
+ ca.mcgill.model.familytree;bundle-version="0.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: hu.bme.mit.inf.dslreasoner.application.execution,
+ org.apache.log4j
